@@ -1,0 +1,83 @@
+node_id,canonical_firm_id,canonical_name,node_type,entity_type,entity_level,parent_firm_id,parent_canonical_name,year
+0,FIRM_0001,ADP,target_entity,hr_software,parent,,,2025
+1,FIRM_0002,Accenture,target_entity,it_consulting,parent,,,2025
+2,FIRM_0003,Activision Blizzard,target_entity,gaming,subsidiary,FIRM_0097,Microsoft,2025
+3,FIRM_0004,Alibaba,source_firm,company,parent,,,2025
+4,FIRM_0005,Alibaba Cloud,target_entity,cloud_provider,service,FIRM_0004,Alibaba,2025
+5,FIRM_0006,Alphabet,target_entity,holding_company,parent,,,2025
+7,FIRM_0009,Amazon,source_firm,company,parent,,,2025
+8,FIRM_0012,Amazon Web Services,target_entity,cloud_provider,service,FIRM_0009,Amazon,2025
+9,FIRM_0013,Amdocs,target_entity,telecom_software,parent,,,2025
+10,FIRM_0016,Ant Group / Alipay,target_entity,fintech,affiliate,FIRM_0004,Alibaba,2025
+11,FIRM_0017,Anthropic,target_entity,ai_lab,company,,,2025
+12,FIRM_0018,Apache Kafka,target_entity,open_source_project,project,FIRM_0019,Apache Software Foundation,2025
+13,FIRM_0020,Apache Spark,target_entity,open_source_project,project,FIRM_0019,Apache Software Foundation,2025
+18,FIRM_0027,Bleu,target_entity,sovereign_cloud_provider,joint_venture_partner,FIRM_0180; FIRM_0031,Orange; Capgemini,2025
+19,FIRM_0029,Cainiao,target_entity,logistics,subsidiary,FIRM_0004,Alibaba,2025
+21,FIRM_0031,Capgemini,target_entity,it_consulting,parent,,,2025
+22,FIRM_0032,Cerner,target_entity,healthcare_it,subsidiary,FIRM_0117,Oracle,2025
+28,FIRM_0038,Cohere,target_entity,ai_lab,company,,,2025
+30,FIRM_0040,Confluent,target_entity,data_streaming,parent,,,2025
+31,FIRM_0041,Couchbase,source_firm,database_platform,parent,,,2025
+32,FIRM_0043,Crunchy Data Solutions,target_entity,database,subsidiary,FIRM_0155,Snowflake,2025
+34,FIRM_0046,Databricks,target_entity,data_ai_platform,parent,,,2025
+35,FIRM_0047,Datavolo,target_entity,data_pipeline,subsidiary,FIRM_0155,Snowflake,2025
+36,FIRM_0048,Dell Technologies,target_entity,hardware,parent,,,2025
+37,FIRM_0050,Elasticsearch,target_entity,search_software,service,FIRM_0049,Elastic,2025
+38,FIRM_0054,Ernst & Young,target_entity,professional_services,parent,,,2025
+39,FIRM_0055,Fireworks AI,target_entity,ai_platform,company,,,2025
+42,FIRM_0059,Flex,target_entity,manufacturing,parent,,,2025
+43,FIRM_0060,GitHub,target_entity,developer_platform,subsidiary,FIRM_0097,Microsoft,2025
+44,FIRM_0062,Google Cloud,target_entity,cloud_provider,service,FIRM_0061,Google,2025
+45,FIRM_0063,Google DeepMind,target_entity,ai_research,subsidiary,FIRM_0061,Google,2025
+46,FIRM_0065,HashiCorp,target_entity,infrastructure_software,subsidiary,FIRM_0069,IBM,2025
+48,FIRM_0067,Hewlett Packard Enterprise,target_entity,enterprise_hardware,parent,,,2025
+49,FIRM_0069,IBM,source_firm,technology_company,parent,,,2025
+50,FIRM_0070,Infosys,target_entity,it_services,parent,,,2025
+51,FIRM_0072,Intersect Power,target_entity,energy,company,,,2025
+52,FIRM_0073,Intime,target_entity,retail,subsidiary,FIRM_0004,Alibaba,2025
+57,FIRM_0080,LangChain,target_entity,ai_framework,company,,,2025
+58,FIRM_0081,Lazada,target_entity,ecommerce,subsidiary,FIRM_0004,Alibaba,2025
+60,FIRM_0083,Lenovo,target_entity,hardware,parent,,,2025
+61,FIRM_0084,LinkedIn,target_entity,social_platform,subsidiary,FIRM_0097,Microsoft,2025
+62,FIRM_0085,LlamaIndex,target_entity,ai_framework,company,,,2025
+63,FIRM_0086,MGM Holdings,target_entity,media,subsidiary,FIRM_0009,Amazon,2025
+66,FIRM_0091,Mandiant,target_entity,cybersecurity,subsidiary,FIRM_0061,Google,2025
+71,FIRM_0097,Microsoft,source_firm,company,parent,,,2025
+72,FIRM_0098,Microsoft Azure,target_entity,cloud_provider,service,FIRM_0097,Microsoft,2025
+73,FIRM_0099,Mistral AI,target_entity,ai_lab,company,,,2025
+74,FIRM_0100,MongoDB,source_firm,database_platform,parent,,,2025
+75,FIRM_0101,Moonshot AI,target_entity,ai_lab,company,,,2025
+77,FIRM_0104,NFL,target_entity,sports_league,organization,,,2025
+78,FIRM_0105,NVIDIA,target_entity,semiconductors,parent,,,2025
+80,FIRM_0107,NetApp,target_entity,storage,parent,,,2025
+81,FIRM_0110,Nuance Communications,target_entity,ai_software,subsidiary,FIRM_0097,Microsoft,2025
+82,FIRM_0113,One Medical,target_entity,healthcare,subsidiary,FIRM_0009,Amazon,2025
+83,FIRM_0114,Open source community,target_entity,open_source,community,,,2025
+84,FIRM_0115,OpenAI,target_entity,ai_lab,subsidiary,FIRM_0116,OpenAI Group,2025
+85,FIRM_0117,Oracle,source_firm,enterprise_software,parent,,,2025
+88,FIRM_0120,Palantir Technologies,target_entity,data_analytics,parent,,,2025
+89,FIRM_0121,Palo Alto Networks,target_entity,cybersecurity,parent,,,2025
+90,FIRM_0122,Perplexity AI,target_entity,ai_search,company,,,2025
+93,FIRM_0125,PricewaterhouseCoopers,target_entity,professional_services,parent,,,2025
+95,FIRM_0129,Red Hat,target_entity,open_source_software,subsidiary,FIRM_0069,IBM,2025
+97,FIRM_0131,Rivian,target_entity,automotive,parent,,,2025
+98,FIRM_0132,SAP,source_firm,enterprise_software,parent,,,2025
+102,FIRM_0136,SAP Concur,target_entity,travel_expense_software,subsidiary,FIRM_0132,SAP,2025
+103,FIRM_0137,SAP Deutschland,target_entity,enterprise_software,regional_entity,FIRM_0132,SAP,2025
+107,FIRM_0141,SAP LeanIX,target_entity,enterprise_architecture,subsidiary,FIRM_0132,SAP,2025
+109,FIRM_0143,SAP Schweiz,target_entity,enterprise_software,regional_entity,FIRM_0132,SAP,2025
+110,FIRM_0144,SAP Signavio,target_entity,process_intelligence,subsidiary,FIRM_0132,SAP,2025
+112,FIRM_0146,SAP UK,target_entity,enterprise_software,regional_entity,FIRM_0132,SAP,2025
+114,FIRM_0149,Salesforce,target_entity,enterprise_software,parent,,,2025
+118,FIRM_0154,SmartRecruiters,target_entity,hr_software,company,,,2025
+119,FIRM_0155,Snowflake,source_firm,data_platform,parent,,,2025
+121,FIRM_0159,Sun Art Retail,target_entity,retail,subsidiary,FIRM_0004,Alibaba,2025
+122,FIRM_0162,Tencent Cloud,target_entity,cloud_provider,service,FIRM_0161,Tencent,2025
+123,FIRM_0163,Teradata,source_firm,data_platform,parent,,,2025
+126,FIRM_0166,Trendyol,target_entity,ecommerce,subsidiary,FIRM_0004,Alibaba,2025
+128,FIRM_0168,Voyage AI,target_entity,embedding_ai,subsidiary,FIRM_0100,MongoDB,2025
+129,FIRM_0169,WalkMe,target_entity,digital_adoption_platform,subsidiary,FIRM_0132,SAP,2025
+130,FIRM_0170,Waymo,target_entity,autonomous_vehicle,subsidiary,FIRM_0006,Alphabet,2025
+131,FIRM_0171,Whole Foods Market,target_entity,retail,subsidiary,FIRM_0009,Amazon,2025
+132,FIRM_0172,Wiz,target_entity,cybersecurity,subsidiary,FIRM_0061,Google,2025

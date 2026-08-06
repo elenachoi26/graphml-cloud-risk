@@ -1,0 +1,11 @@
+canonical_firm_id,canonical_name,node_type,entity_type,entity_level,parent_firm_id,parent_canonical_name,year,gcn_score,gcn_rank_all,gcn_rank_within_type
+FIRM_0009,Amazon,source_firm,company,parent,,,2025,0.6505862,17,1
+FIRM_0004,Alibaba,source_firm,company,parent,,,2025,0.6482806,21,2
+FIRM_0069,IBM,source_firm,technology_company,parent,,,2025,0.63124317,23,3
+FIRM_0097,Microsoft,source_firm,company,parent,,,2025,0.6202197,27,4
+FIRM_0132,SAP,source_firm,enterprise_software,parent,,,2025,0.6179094,29,5
+FIRM_0117,Oracle,source_firm,enterprise_software,parent,,,2025,0.6116944,31,6
+FIRM_0155,Snowflake,source_firm,data_platform,parent,,,2025,0.52768457,51,7
+FIRM_0041,Couchbase,source_firm,database_platform,parent,,,2025,0.5136132,52,8
+FIRM_0100,MongoDB,source_firm,database_platform,parent,,,2025,0.4915843,53,9
+FIRM_0163,Teradata,source_firm,data_platform,parent,,,2025,0.35816234,54,10

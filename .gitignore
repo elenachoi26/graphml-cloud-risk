@@ -1,0 +1,23 @@
+# Raw inputs are withheld — see data/README.md
+data/raw/
+*.xlsx
+
+# Model checkpoints
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.claude/
+.vscode/
+.idea/
+
+# Sample runs write here so they can never clobber the real results in outputs/
+outputs_sample/

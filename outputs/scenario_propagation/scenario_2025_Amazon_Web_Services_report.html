@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Scenario: Amazon Web Services — 2025</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+         margin: 0; padding: 2rem; color: #16181d; background: #fff; }
+  h1 { font-size: 1.4rem; margin: 0 0 .25rem; }
+  .sub { color: #6b7280; font-size: .85rem; margin-bottom: 1.5rem; }
+  .cards { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+  .card { border: 1px solid #e5e7eb; border-radius: 8px; padding: .9rem 1.2rem; min-width: 150px; }
+  .card .k { font-size: .7rem; letter-spacing: .06em; text-transform: uppercase; color: #6b7280; }
+  .card .v { font-size: 1.6rem; font-weight: 700; }
+  table { border-collapse: collapse; width: 100%; font-size: .85rem; margin-bottom: 2rem; }
+  th { text-align: left; background: #16181d; color: #fff; padding: .5rem .7rem; }
+  td { padding: .4rem .7rem; border-bottom: 1px solid #eef0f3; }
+  tr:hover td { background: #fafbfc; }
+</style></head><body>
+<h1>Shock scenario — Amazon Web Services</h1>
+<div class="sub">2025 dependency graph · severity 1.0 ·
+  path_score = severity x product(edge_weight) x 0.85^(hop-1) ·
+  max 3 hops</div>
+<div class="cards">
+  <div class="card"><div class="k">Affected nodes</div><div class="v">43</div></div>
+  <div class="card"><div class="k">Propagation paths</div>
+    <div class="v">89</div></div>
+  <div class="card"><div class="k">Total score</div><div class="v">8.302</div></div>
+</div>
+<h2 style="font-size:1rem">Damage by hop distance</h2>
+<table><thead><tr><th>Hop</th><th>Nodes</th><th>Paths</th>
+  <th>Total score</th><th>Mean score</th></tr></thead><tbody><tr><td>1</td><td>6</td><td>6</td><td>3.5167</td><td>0.5861</td></tr><tr><td>2</td><td>30</td><td>35</td><td>3.9050</td><td>0.1116</td></tr><tr><td>3</td><td>33</td><td>48</td><td>0.8804</td><td>0.0183</td></tr></tbody></table>
+<h2 style="font-size:1rem">Affected nodes</h2>
+<table><thead><tr><th>#</th><th>Node</th><th>Type</th><th>Parent ecosystem</th>
+  <th>Total score</th><th>Paths</th><th>Nearest hop</th></tr></thead>
+<tbody><tr><td>1</td><td>MongoDB</td><td>source_firm</td><td>nan</td><td>1.0076</td><td>4</td><td>1</td></tr><tr><td>2</td><td>Snowflake</td><td>source_firm</td><td>nan</td><td>0.9371</td><td>4</td><td>1</td></tr><tr><td>3</td><td>Couchbase</td><td>source_firm</td><td>nan</td><td>0.6813</td><td>2</td><td>1</td></tr><tr><td>4</td><td>Teradata</td><td>source_firm</td><td>nan</td><td>0.5333</td><td>1</td><td>1</td></tr><tr><td>5</td><td>IBM</td><td>source_firm</td><td>nan</td><td>0.4541</td><td>3</td><td>1</td></tr><tr><td>6</td><td>Red Hat</td><td>target_entity</td><td>IBM</td><td>0.3976</td><td>3</td><td>2</td></tr><tr><td>7</td><td>Voyage AI</td><td>target_entity</td><td>MongoDB</td><td>0.3622</td><td>1</td><td>2</td></tr><tr><td>8</td><td>SAP</td><td>source_firm</td><td>nan</td><td>0.3457</td><td>6</td><td>1</td></tr><tr><td>9</td><td>HashiCorp</td><td>target_entity</td><td>IBM</td><td>0.2932</td><td>2</td><td>2</td></tr><tr><td>10</td><td>Infosys</td><td>target_entity</td><td>nan</td><td>0.2928</td><td>2</td><td>2</td></tr><tr><td>11</td><td>Tencent Cloud</td><td>target_entity</td><td>Tencent</td><td>0.2229</td><td>1</td><td>2</td></tr><tr><td>11</td><td>Alibaba Cloud</td><td>target_entity</td><td>Alibaba</td><td>0.2229</td><td>1</td><td>2</td></tr><tr><td>13</td><td>Capgemini</td><td>target_entity</td><td>nan</td><td>0.1925</td><td>4</td><td>2</td></tr><tr><td>13</td><td>Accenture</td><td>target_entity</td><td>nan</td><td>0.1925</td><td>4</td><td>2</td></tr><tr><td>15</td><td>Anthropic</td><td>target_entity</td><td>nan</td><td>0.1811</td><td>1</td><td>2</td></tr><tr><td>16</td><td>LangChain</td><td>target_entity</td><td>nan</td><td>0.1672</td><td>1</td><td>2</td></tr><tr><td>16</td><td>Confluent</td><td>target_entity</td><td>nan</td><td>0.1672</td><td>1</td><td>2</td></tr><tr><td>16</td><td>LlamaIndex</td><td>target_entity</td><td>nan</td><td>0.1672</td><td>1</td><td>2</td></tr><tr><td>19</td><td>Microsoft</td><td>source_firm</td><td>nan</td><td>0.1588</td><td>2</td><td>2</td></tr><tr><td>20</td><td>Datavolo</td><td>target_entity</td><td>Snowflake</td><td>0.1488</td><td>2</td><td>2</td></tr><tr><td>21</td><td>Oracle</td><td>source_firm</td><td>nan</td><td>0.1344</td><td>2</td><td>2</td></tr><tr><td>22</td><td>Amdocs</td><td>target_entity</td><td>nan</td><td>0.1256</td><td>1</td><td>2</td></tr><tr><td>23</td><td>Crunchy Data Solutions</td><td>target_entity</td><td>Snowflake</td><td>0.1240</td><td>2</td><td>2</td></tr><tr><td>24</td><td>Salesforce</td><td>target_entity</td><td>nan</td><td>0.0855</td><td>2</td><td>2</td></tr><tr><td>25</td><td>OpenAI</td><td>target_entity</td><td>OpenAI Group</td><td>0.0751</td><td>1</td><td>3</td></tr><tr><td>26</td><td>Palo Alto Networks</td><td>target_entity</td><td>nan</td><td>0.0733</td><td>2</td><td>2</td></tr><tr><td>27</td><td>Nuance Communications</td><td>target_entity</td><td>Microsoft</td><td>0.0668</td><td>1</td><td>3</td></tr><tr><td>28</td><td>LinkedIn</td><td>target_entity</td><td>Microsoft</td><td>0.0584</td><td>1</td><td>3</td></tr><tr><td>29</td><td>Amazon</td><td>source_firm</td><td>nan</td><td>0.0513</td><td>1</td><td>3</td></tr><tr><td>30</td><td>GitHub</td><td>target_entity</td><td>Microsoft</td><td>0.0501</td><td>1</td><td>3</td></tr><tr><td>31</td><td>Cerner</td><td>target_entity</td><td>Oracle</td><td>0.0495</td><td>1</td><td>3</td></tr><tr><td>32</td><td>Activision Blizzard</td><td>target_entity</td><td>Microsoft</td><td>0.0417</td><td>1</td><td>3</td></tr><tr><td>33</td><td>SAP Schweiz</td><td>target_entity</td><td>SAP</td><td>0.0254</td><td>3</td><td>2</td></tr><tr><td>33</td><td>SmartRecruiters</td><td>target_entity</td><td>nan</td><td>0.0254</td><td>3</td><td>2</td></tr><tr><td>33</td><td>SAP UK</td><td>target_entity</td><td>SAP</td><td>0.0254</td><td>3</td><td>2</td></tr><tr><td>33</td><td>ADP</td><td>target_entity</td><td>nan</td><td>0.0254</td><td>3</td><td>2</td></tr><tr><td>33</td><td>SAP Deutschland</td><td>target_entity</td><td>SAP</td><td>0.0254</td><td>3</td><td>2</td></tr><tr><td>33</td><td>SAP Concur</td><td>target_entity</td><td>SAP</td><td>0.0254</td><td>3</td><td>2</td></tr><tr><td>33</td><td>Palantir Technologies</td><td>target_entity</td><td>nan</td><td>0.0254</td><td>3</td><td>2</td></tr><tr><td>33</td><td>Databricks</td><td>target_entity</td><td>nan</td><td>0.0254</td><td>3</td><td>2</td></tr><tr><td>41</td><td>Hewlett Packard Enterprise</td><td>target_entity</td><td>nan</td><td>0.0125</td><td>1</td><td>3</td></tr><tr><td>41</td><td>Dell Technologies</td><td>target_entity</td><td>nan</td><td>0.0125</td><td>1</td><td>3</td></tr><tr><td>41</td><td>Lenovo</td><td>target_entity</td><td>nan</td><td>0.0125</td><td>1</td><td>3</td></tr></tbody></table>
+</body></html>

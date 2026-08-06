@@ -1,0 +1,49 @@
+Firm_Name,Year,Feature,__,"__ __ (__, 100_ __)",Feature Type,firm_raw_name,firm_canonical_name,firm_canonical_firm_id,firm_entity_level,firm_entity_type,firm_parent_canonical_name,firm_parent_firm_id,firm_mapping_found
+Northwind Analytics,2022.0,cybersecurity_risk,0.7,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Northwind Analytics,2022.0,operational_continuity_risk,0.8,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Northwind Analytics,2022.0,ai_dependency_risk,0.9,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Northwind Analytics,2022.0,regulatory_risk,0.4,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Northwind Analytics,2022.0,geopolitical_risk,0.3,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Northwind Analytics,2022.0,energy_infra_risk,0.2,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Zephyr Data Systems,2022.0,cybersecurity_risk,0.5,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Zephyr Data Systems,2022.0,operational_continuity_risk,0.4,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Zephyr Data Systems,2022.0,ai_dependency_risk,0.6,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Zephyr Data Systems,2022.0,regulatory_risk,0.5,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Zephyr Data Systems,2022.0,geopolitical_risk,0.6,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Zephyr Data Systems,2022.0,energy_infra_risk,0.3,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Northwind Analytics,2023.0,cybersecurity_risk,0.7,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Northwind Analytics,2023.0,operational_continuity_risk,0.8,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Northwind Analytics,2023.0,ai_dependency_risk,0.9,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Northwind Analytics,2023.0,regulatory_risk,0.4,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Northwind Analytics,2023.0,geopolitical_risk,0.3,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Northwind Analytics,2023.0,energy_infra_risk,0.2,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Zephyr Data Systems,2023.0,cybersecurity_risk,0.5,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Zephyr Data Systems,2023.0,operational_continuity_risk,0.4,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Zephyr Data Systems,2023.0,ai_dependency_risk,0.6,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Zephyr Data Systems,2023.0,regulatory_risk,0.5,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Zephyr Data Systems,2023.0,geopolitical_risk,0.6,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Zephyr Data Systems,2023.0,energy_infra_risk,0.3,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Northwind Analytics,2024.0,cybersecurity_risk,0.7,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Northwind Analytics,2024.0,operational_continuity_risk,0.8,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Northwind Analytics,2024.0,ai_dependency_risk,0.9,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Northwind Analytics,2024.0,regulatory_risk,0.4,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Northwind Analytics,2024.0,geopolitical_risk,0.3,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Northwind Analytics,2024.0,energy_infra_risk,0.2,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Zephyr Data Systems,2024.0,cybersecurity_risk,0.5,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Zephyr Data Systems,2024.0,operational_continuity_risk,0.4,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Zephyr Data Systems,2024.0,ai_dependency_risk,0.6,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Zephyr Data Systems,2024.0,regulatory_risk,0.5,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Zephyr Data Systems,2024.0,geopolitical_risk,0.6,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Zephyr Data Systems,2024.0,energy_infra_risk,0.3,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Northwind Analytics,2025.0,cybersecurity_risk,0.7,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Northwind Analytics,2025.0,operational_continuity_risk,0.8,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Northwind Analytics,2025.0,ai_dependency_risk,0.9,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Northwind Analytics,2025.0,regulatory_risk,0.4,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Northwind Analytics,2025.0,geopolitical_risk,0.3,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Northwind Analytics,2025.0,energy_infra_risk,0.2,"[sample row - synthetic text, not from any filing]",Risk,Northwind Analytics,Northwind Analytics,FIRM_9001,parent,company,,,True
+Zephyr Data Systems,2025.0,cybersecurity_risk,0.5,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Zephyr Data Systems,2025.0,operational_continuity_risk,0.4,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Zephyr Data Systems,2025.0,ai_dependency_risk,0.6,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Zephyr Data Systems,2025.0,regulatory_risk,0.5,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Zephyr Data Systems,2025.0,geopolitical_risk,0.6,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True
+Zephyr Data Systems,2025.0,energy_infra_risk,0.3,"[sample row - synthetic text, not from any filing]",Risk,Zephyr Data Systems,Zephyr Data Systems,FIRM_9002,parent,company,,,True

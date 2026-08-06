@@ -1,0 +1,85 @@
+node_id,canonical_firm_id,canonical_name,node_type,entity_type,entity_level,parent_firm_id,parent_canonical_name,year
+2,FIRM_0003,Activision Blizzard,target_entity,gaming,subsidiary,FIRM_0097,Microsoft,2022
+3,FIRM_0004,Alibaba,source_firm,company,parent,,,2022
+4,FIRM_0005,Alibaba Cloud,target_entity,cloud_provider,service,FIRM_0004,Alibaba,2022
+5,FIRM_0006,Alphabet,target_entity,holding_company,parent,,,2022
+6,FIRM_0007,Altair Engineering,source_firm,engineering_software,parent,,,2022
+7,FIRM_0009,Amazon,source_firm,company,parent,,,2022
+8,FIRM_0012,Amazon Web Services,target_entity,cloud_provider,service,FIRM_0009,Amazon,2022
+10,FIRM_0016,Ant Group / Alipay,target_entity,fintech,affiliate,FIRM_0004,Alibaba,2022
+15,FIRM_0024,BNP Paribas,target_entity,financial_services,parent,,,2022
+16,FIRM_0025,BNY Mellon,target_entity,financial_services,parent,,,2022
+17,FIRM_0026,Bilibili,target_entity,media_platform,parent,,,2022
+19,FIRM_0029,Cainiao,target_entity,logistics,subsidiary,FIRM_0004,Alibaba,2022
+22,FIRM_0032,Cerner,target_entity,healthcare_it,subsidiary,FIRM_0117,Oracle,2022
+23,FIRM_0033,China Broadcasting Network,target_entity,telecommunications,company,,,2022
+24,FIRM_0034,China Mobile,target_entity,telecommunications,parent,,,2022
+25,FIRM_0035,China Telecom,target_entity,telecommunications,parent,,,2022
+26,FIRM_0036,China Unicom,target_entity,telecommunications,parent,,,2022
+27,FIRM_0037,Cloud4C,target_entity,cloud_services,parent,,,2022
+29,FIRM_0039,Concept Engineering,target_entity,software,subsidiary,FIRM_0007,Altair Engineering,2022
+31,FIRM_0041,Couchbase,source_firm,database_platform,parent,,,2022
+36,FIRM_0048,Dell Technologies,target_entity,hardware,parent,,,2022
+38,FIRM_0054,Ernst & Young,target_entity,professional_services,parent,,,2022
+41,FIRM_0058,Fitbit,target_entity,wearables,subsidiary,FIRM_0061,Google,2022
+42,FIRM_0059,Flex,target_entity,manufacturing,parent,,,2022
+43,FIRM_0060,GitHub,target_entity,developer_platform,subsidiary,FIRM_0097,Microsoft,2022
+44,FIRM_0062,Google Cloud,target_entity,cloud_provider,service,FIRM_0061,Google,2022
+45,FIRM_0063,Google DeepMind,target_entity,ai_research,subsidiary,FIRM_0061,Google,2022
+47,FIRM_0066,Hercules Capital,target_entity,financial_services,parent,,,2022
+48,FIRM_0067,Hewlett Packard Enterprise,target_entity,enterprise_hardware,parent,,,2022
+49,FIRM_0069,IBM,source_firm,technology_company,parent,,,2022
+53,FIRM_0075,JPMorgan Chase,target_entity,financial_services,parent,,,2022
+54,FIRM_0076,JPMorgan Chase Bank,target_entity,banking,subsidiary,FIRM_0075,JPMorgan Chase,2022
+56,FIRM_0079,Kyndryl,target_entity,it_services,company,,,2022
+58,FIRM_0081,Lazada,target_entity,ecommerce,subsidiary,FIRM_0004,Alibaba,2022
+60,FIRM_0083,Lenovo,target_entity,hardware,parent,,,2022
+61,FIRM_0084,LinkedIn,target_entity,social_platform,subsidiary,FIRM_0097,Microsoft,2022
+63,FIRM_0086,MGM Holdings,target_entity,media,subsidiary,FIRM_0009,Amazon,2022
+66,FIRM_0091,Mandiant,target_entity,cybersecurity,subsidiary,FIRM_0061,Google,2022
+67,FIRM_0092,Mango Excellent Media,target_entity,media,parent,,,2022
+68,FIRM_0093,MegaFon,target_entity,telecommunications,parent,,,2022
+69,FIRM_0094,Meinian Onehealth,target_entity,healthcare,parent,,,2022
+71,FIRM_0097,Microsoft,source_firm,company,parent,,,2022
+72,FIRM_0098,Microsoft Azure,target_entity,cloud_provider,service,FIRM_0097,Microsoft,2022
+74,FIRM_0100,MongoDB,source_firm,database_platform,parent,,,2022
+80,FIRM_0107,NetApp,target_entity,storage,parent,,,2022
+81,FIRM_0110,Nuance Communications,target_entity,ai_software,subsidiary,FIRM_0097,Microsoft,2022
+82,FIRM_0113,One Medical,target_entity,healthcare,subsidiary,FIRM_0009,Amazon,2022
+83,FIRM_0114,Open source community,target_entity,open_source,community,,,2022
+85,FIRM_0117,Oracle,source_firm,enterprise_software,parent,,,2022
+86,FIRM_0118,Oracle Financial Services Software,target_entity,financial_services_software,subsidiary,FIRM_0117,Oracle,2022
+87,FIRM_0119,Oracle Japan,target_entity,enterprise_software,regional_entity,FIRM_0117,Oracle,2022
+91,FIRM_0123,Polliwog,target_entity,software,subsidiary,FIRM_0007,Altair Engineering,2022
+92,FIRM_0124,Powersim,target_entity,software,subsidiary,FIRM_0007,Altair Engineering,2022
+93,FIRM_0125,PricewaterhouseCoopers,target_entity,professional_services,parent,,,2022
+94,FIRM_0127,RapidMiner,target_entity,analytics_platform,subsidiary,FIRM_0007,Altair Engineering,2022
+95,FIRM_0129,Red Hat,target_entity,open_source_software,subsidiary,FIRM_0069,IBM,2022
+97,FIRM_0131,Rivian,target_entity,automotive,parent,,,2022
+98,FIRM_0132,SAP,source_firm,enterprise_software,parent,,,2022
+99,FIRM_0133,SAP America,target_entity,enterprise_software,regional_entity,FIRM_0132,SAP,2022
+100,FIRM_0134,SAP Ariba,target_entity,procurement_software,subsidiary,FIRM_0132,SAP,2022
+102,FIRM_0136,SAP Concur,target_entity,travel_expense_software,subsidiary,FIRM_0132,SAP,2022
+103,FIRM_0137,SAP Deutschland,target_entity,enterprise_software,regional_entity,FIRM_0132,SAP,2022
+104,FIRM_0138,SAP España,target_entity,enterprise_software,regional_entity,FIRM_0132,SAP,2022
+105,FIRM_0139,SAP France,target_entity,enterprise_software,regional_entity,FIRM_0132,SAP,2022
+106,FIRM_0140,SAP Italia,target_entity,enterprise_software,regional_entity,FIRM_0132,SAP,2022
+108,FIRM_0142,SAP Nederland,target_entity,enterprise_software,regional_entity,FIRM_0132,SAP,2022
+109,FIRM_0143,SAP Schweiz,target_entity,enterprise_software,regional_entity,FIRM_0132,SAP,2022
+112,FIRM_0146,SAP UK,target_entity,enterprise_software,regional_entity,FIRM_0132,SAP,2022
+113,FIRM_0148,STO Express,target_entity,logistics,parent,,,2022
+117,FIRM_0153,Silicon Valley Bank,target_entity,banking,subsidiary,FIRM_0056,First Citizens BancShares,2022
+119,FIRM_0155,Snowflake,source_firm,data_platform,parent,,,2022
+120,FIRM_0158,Streamlit,target_entity,app_framework,subsidiary,FIRM_0155,Snowflake,2022
+121,FIRM_0159,Sun Art Retail,target_entity,retail,subsidiary,FIRM_0004,Alibaba,2022
+122,FIRM_0162,Tencent Cloud,target_entity,cloud_provider,service,FIRM_0161,Tencent,2022
+123,FIRM_0163,Teradata,source_firm,data_platform,parent,,,2022
+125,FIRM_0165,Toggled,target_entity,iot_lighting,subsidiary,FIRM_0007,Altair Engineering,2022
+126,FIRM_0166,Trendyol,target_entity,ecommerce,subsidiary,FIRM_0004,Alibaba,2022
+127,FIRM_0167,VK Company,target_entity,internet_media,parent,,,2022
+130,FIRM_0170,Waymo,target_entity,autonomous_vehicle,subsidiary,FIRM_0006,Alphabet,2022
+131,FIRM_0171,Whole Foods Market,target_entity,retail,subsidiary,FIRM_0009,Amazon,2022
+133,FIRM_0174,World Programming,target_entity,software,subsidiary,FIRM_0007,Altair Engineering,2022
+134,FIRM_0175,YTO Express,target_entity,logistics,parent,,,2022
+136,FIRM_0177,ZeniMax Media,target_entity,gaming,subsidiary,FIRM_0097,Microsoft,2022
+137,FIRM_0178,iRobot,target_entity,robotics_consumer_electronics,company,,,2022

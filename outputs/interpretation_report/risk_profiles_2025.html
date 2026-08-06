@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Firm Risk Profiles — 2025</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+         margin: 0; background: #f5f5f5; color: #16181d; }
+  header { background: #101215; color: #fff; padding: 1.4rem 2rem; }
+  header h1 { margin: 0; font-size: 1.35rem; }
+  header .sub { color: #9aa0a6; font-size: .8rem; margin-top: .3rem; }
+  main { padding: 2rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+           gap: 1.2rem; }
+  .card { background: #fff; border: 1px solid #e3e5e8; border-radius: 10px; padding: 1.2rem; }
+  .head { display: flex; justify-content: space-between; align-items: flex-start;
+           border-bottom: 1px solid #eceef0; padding-bottom: .8rem; }
+  .name { font-size: 1.15rem; font-weight: 700; }
+  .rank { color: #8b9096; font-size: .72rem; margin-top: .2rem; }
+  .score { font-size: 1.7rem; font-weight: 800; text-align: right; line-height: 1; }
+  .score .max { font-size: .7rem; font-weight: 400; color: #8b9096; margin-left: .2rem; }
+  .band { display: inline-block; font-size: .62rem; font-weight: 700; letter-spacing: .07em;
+           padding: .18rem .5rem; border-radius: 3px; color: #fff; margin-top: .4rem; }
+  .band-high { background: #101215; } .band-medium { background: #8b9096; }
+  .band-low { background: #c9cdd2; }
+  .section { font-size: .78rem; font-weight: 700; margin: 1rem 0 .5rem; }
+  .deps { display: flex; flex-wrap: wrap; gap: .35rem; }
+  .dep { background: #f1f3f5; border-radius: 4px; padding: .22rem .5rem; font-size: .74rem; }
+  .meta { font-size: .78rem; line-height: 1.6; }
+  .action { background: #f8f9fa; border-radius: 6px; padding: .7rem .8rem;
+             font-size: .75rem; margin-top: 1rem; line-height: 1.5; }
+</style></head><body>
+<header>
+  <h1>Individual Firm AI Supply Chain Risk Profiles — 2025</h1>
+  <div class="sub">GCN-predicted systemic exposure scores ·
+    source: edges_weighted_2025, prediction_2025_gcn_source_firms</div>
+</header>
+<main><div class="grid">
+        <div class="card">
+          <div class="head">
+            <div>
+              <div class="name">Amazon</div>
+              <div class="rank">#1 among source firms ·
+                All-node rank #17</div>
+            </div>
+            <div class="score">0.651<span class="max">/ 1.0</span>
+              <div class="band band-high">HIGH</div></div>
+          </div>
+          <div class="section">Top Upstream Dependencies (3 edges)</div>
+          <div class="deps"><span class="dep">Whole Foods Market <b>0.47</b></span><span class="dep">Anthropic <b>0.33</b></span><span class="dep">Rivian <b>0.27</b></span></div>
+          <div class="section">Exposure Channels</div>
+          <div class="meta"><b>Relation:</b> ai_provider &nbsp;|&nbsp;
+            <b>Spillover:</b> governance<br>
+            <b>Avg edge weight:</b> 0.356 &nbsp;&nbsp;
+            <b>Max:</b> 0.467</div>
+          <div class="action"><b>Underwriting Action:</b> Review coverage limit; require redundancy evidence; consider deductible/endorsement adjustment for AI and cloud dependency exposure.</div>
+        </div>
+        <div class="card">
+          <div class="head">
+            <div>
+              <div class="name">Alibaba</div>
+              <div class="rank">#2 among source firms ·
+                All-node rank #21</div>
+            </div>
+            <div class="score">0.648<span class="max">/ 1.0</span>
+              <div class="band band-high">HIGH</div></div>
+          </div>
+          <div class="section">Top Upstream Dependencies (4 edges)</div>
+          <div class="deps"><span class="dep">Ant Group / Alipay <b>0.60</b></span><span class="dep">Sun Art Retail <b>0.47</b></span><span class="dep">Intime <b>0.47</b></span><span class="dep">Moonshot AI <b>0.33</b></span></div>
+          <div class="section">Exposure Channels</div>
+          <div class="meta"><b>Relation:</b> investment_target &nbsp;|&nbsp;
+            <b>Spillover:</b> operational<br>
+            <b>Avg edge weight:</b> 0.467 &nbsp;&nbsp;
+            <b>Max:</b> 0.600</div>
+          <div class="action"><b>Underwriting Action:</b> Review coverage limit; require redundancy evidence; consider deductible/endorsement adjustment for AI and cloud dependency exposure.</div>
+        </div>
+        <div class="card">
+          <div class="head">
+            <div>
+              <div class="name">IBM</div>
+              <div class="rank">#3 among source firms ·
+                All-node rank #23</div>
+            </div>
+            <div class="score">0.631<span class="max">/ 1.0</span>
+              <div class="band band-high">HIGH</div></div>
+          </div>
+          <div class="section">Top Upstream Dependencies (8 edges)</div>
+          <div class="deps"><span class="dep">PricewaterhouseCoopers <b>0.50</b></span><span class="dep">Open source community <b>0.47</b></span><span class="dep">Microsoft <b>0.43</b></span><span class="dep">Amazon Web Services <b>0.40</b></span><span class="dep">Oracle <b>0.37</b></span><span class="dep">SAP <b>0.37</b></span><span class="dep">Salesforce <b>0.23</b></span><span class="dep">Palo Alto Networks <b>0.20</b></span></div>
+          <div class="section">Exposure Channels</div>
+          <div class="meta"><b>Relation:</b> partner &nbsp;|&nbsp;
+            <b>Spillover:</b> operational<br>
+            <b>Avg edge weight:</b> 0.371 &nbsp;&nbsp;
+            <b>Max:</b> 0.500</div>
+          <div class="action"><b>Underwriting Action:</b> Review coverage limit; require redundancy evidence; consider deductible/endorsement adjustment for AI and cloud dependency exposure.</div>
+        </div>
+        <div class="card">
+          <div class="head">
+            <div>
+              <div class="name">Microsoft</div>
+              <div class="rank">#4 among source firms ·
+                All-node rank #27</div>
+            </div>
+            <div class="score">0.620<span class="max">/ 1.0</span>
+              <div class="band band-high">HIGH</div></div>
+          </div>
+          <div class="section">Top Upstream Dependencies (6 edges)</div>
+          <div class="deps"><span class="dep">OpenAI <b>0.60</b></span><span class="dep">Nuance Communications <b>0.53</b></span><span class="dep">LinkedIn <b>0.47</b></span><span class="dep">IBM <b>0.43</b></span><span class="dep">GitHub <b>0.40</b></span><span class="dep">Activision Blizzard <b>0.33</b></span></div>
+          <div class="section">Exposure Channels</div>
+          <div class="meta"><b>Relation:</b> subsidiary &nbsp;|&nbsp;
+            <b>Spillover:</b> operational<br>
+            <b>Avg edge weight:</b> 0.461 &nbsp;&nbsp;
+            <b>Max:</b> 0.600</div>
+          <div class="action"><b>Underwriting Action:</b> Review coverage limit; require redundancy evidence; consider deductible/endorsement adjustment for AI and cloud dependency exposure.</div>
+        </div>
+        <div class="card">
+          <div class="head">
+            <div>
+              <div class="name">SAP</div>
+              <div class="rank">#5 among source firms ·
+                All-node rank #29</div>
+            </div>
+            <div class="score">0.618<span class="max">/ 1.0</span>
+              <div class="band band-high">HIGH</div></div>
+          </div>
+          <div class="section">Top Upstream Dependencies (21 edges)</div>
+          <div class="deps"><span class="dep">IBM <b>0.37</b></span><span class="dep">Capgemini <b>0.10</b></span><span class="dep">SAP LeanIX <b>0.10</b></span><span class="dep">SAP Signavio <b>0.10</b></span><span class="dep">WalkMe <b>0.10</b></span><span class="dep">SAP Concur <b>0.10</b></span><span class="dep">SAP UK <b>0.10</b></span><span class="dep">SAP Schweiz <b>0.10</b></span></div>
+          <div class="section">Exposure Channels</div>
+          <div class="meta"><b>Relation:</b> subsidiary &nbsp;|&nbsp;
+            <b>Spillover:</b> none<br>
+            <b>Avg edge weight:</b> 0.113 &nbsp;&nbsp;
+            <b>Max:</b> 0.367</div>
+          <div class="action"><b>Underwriting Action:</b> Review coverage limit; require redundancy evidence; consider deductible/endorsement adjustment for AI and cloud dependency exposure.</div>
+        </div>
+        <div class="card">
+          <div class="head">
+            <div>
+              <div class="name">Oracle</div>
+              <div class="rank">#6 among source firms ·
+                All-node rank #31</div>
+            </div>
+            <div class="score">0.612<span class="max">/ 1.0</span>
+              <div class="band band-high">HIGH</div></div>
+          </div>
+          <div class="section">Top Upstream Dependencies (2 edges)</div>
+          <div class="deps"><span class="dep">IBM <b>0.37</b></span><span class="dep">Ernst &amp; Young <b>0.17</b></span></div>
+          <div class="section">Exposure Channels</div>
+          <div class="meta"><b>Relation:</b> partner &nbsp;|&nbsp;
+            <b>Spillover:</b> governance<br>
+            <b>Avg edge weight:</b> 0.267 &nbsp;&nbsp;
+            <b>Max:</b> 0.367</div>
+          <div class="action"><b>Underwriting Action:</b> Review coverage limit; require redundancy evidence; consider deductible/endorsement adjustment for AI and cloud dependency exposure.</div>
+        </div></div></main>
+</body></html>

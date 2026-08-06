@@ -1,0 +1,11 @@
+canonical_firm_id,canonical_name,node_type,entity_type,entity_level,parent_firm_id,parent_canonical_name,year,gcn_score,gcn_rank_all,gcn_rank_within_type
+FIRM_0131,Rivian,target_entity,automotive,parent,,,2025,0.7299667,1,1
+FIRM_0003,Activision Blizzard,target_entity,gaming,subsidiary,FIRM_0097,Microsoft,2025,0.7279221,2,2
+FIRM_0060,GitHub,target_entity,developer_platform,subsidiary,FIRM_0097,Microsoft,2025,0.72550833,3,3
+FIRM_0084,LinkedIn,target_entity,social_platform,subsidiary,FIRM_0097,Microsoft,2025,0.720908,4,4
+FIRM_0113,One Medical,target_entity,healthcare,subsidiary,FIRM_0009,Amazon,2025,0.7204384,5,5
+FIRM_0086,MGM Holdings,target_entity,media,subsidiary,FIRM_0009,Amazon,2025,0.7202099,6,6
+FIRM_0073,Intime,target_entity,retail,subsidiary,FIRM_0004,Alibaba,2025,0.71933883,7,7
+FIRM_0159,Sun Art Retail,target_entity,retail,subsidiary,FIRM_0004,Alibaba,2025,0.71933883,7,7
+FIRM_0110,Nuance Communications,target_entity,ai_software,subsidiary,FIRM_0097,Microsoft,2025,0.7114965,9,9
+FIRM_0017,Anthropic,target_entity,ai_lab,company,,,2025,0.7114312,10,10

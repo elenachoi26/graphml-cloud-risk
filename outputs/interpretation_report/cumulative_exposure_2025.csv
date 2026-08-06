@@ -1,0 +1,59 @@
+provider_id,provider_name,provider_entity_type,parent_ecosystem,exposed_source_firms,exposed_firms,avg_predicted_risk_score,max_predicted_risk_score,mean_edge_weight,max_edge_weight,dominant_relation,dominant_spillover,accumulation_level
+FIRM_0012,Amazon Web Services,cloud_provider,Amazon,6,Couchbase • IBM • MongoDB • SAP • Snowflake • Teradata,0.5233661633333334,0.63124317,0.586111111111111,0.9833333333333332,cloud_provider,operational,HIGH
+FIRM_0062,Google Cloud,cloud_provider,Google,5,Couchbase • MongoDB • SAP • Snowflake • Teradata,0.501790762,0.6179094,0.39999999999999997,0.5333333333333333,cloud_provider,operational,HIGH
+FIRM_0125,PricewaterhouseCoopers,professional_services,,5,Couchbase • IBM • MongoDB • Snowflake • Teradata,0.504457516,0.63124317,0.2233333333333333,0.5,supplier,governance,HIGH
+FIRM_0098,Microsoft Azure,cloud_provider,Microsoft,4,Couchbase • MongoDB • Snowflake • Teradata,0.47276110250000003,0.52768457,0.5083333333333333,0.5333333333333333,cloud_provider,operational,HIGH
+FIRM_0069,IBM,technology_company,,3,Microsoft • Oracle • SAP,0.6166078333333334,0.6202197,0.38888888888888884,0.4333333333333333,partner,operational,HIGH
+FIRM_0017,Anthropic,ai_lab,,3,Amazon • MongoDB • Snowflake,0.5566183566666667,0.6505862,0.2944444444444444,0.3333333333333333,ai_provider,governance,HIGH
+FIRM_0105,NVIDIA,semiconductors,,2,Snowflake • Teradata,0.41466975,0.52768457,0.5,0.6333333333333333,hardware_vendor,operational,MEDIUM
+FIRM_0115,OpenAI,ai_lab,OpenAI Group,2,Microsoft • SAP,0.61906455,0.6202197,0.35,0.6,ai_provider,governance,MEDIUM
+FIRM_0132,SAP,enterprise_software,,2,IBM • Snowflake,0.57946387,0.63124317,0.23333333333333328,0.3666666666666666,data_provider,none,MEDIUM
+FIRM_0005,Alibaba Cloud,cloud_provider,Alibaba,2,MongoDB • SAP,0.55474685,0.6179094,0.1833333333333333,0.2666666666666666,cloud_provider,governance,MEDIUM
+FIRM_0002,Accenture,it_consulting,,2,MongoDB • SAP,0.55474685,0.6179094,0.15000000000000002,0.2,partner,none,MEDIUM
+FIRM_0031,Capgemini,it_consulting,,2,MongoDB • SAP,0.55474685,0.6179094,0.15000000000000002,0.2,partner,none,MEDIUM
+FIRM_0059,Flex,manufacturing,,1,Teradata,0.35816234,0.35816234,0.8333333333333333,0.8333333333333333,supplier,operational,LOW
+FIRM_0016,Ant Group / Alipay,fintech,Alibaba,1,Alibaba,0.6482806,0.6482806,0.6,0.6,software_vendor,governance,LOW
+FIRM_0110,Nuance Communications,ai_software,Microsoft,1,Microsoft,0.6202197,0.6202197,0.5333333333333333,0.5333333333333333,subsidiary,operational,LOW
+FIRM_0084,LinkedIn,social_platform,Microsoft,1,Microsoft,0.6202197,0.6202197,0.4666666666666667,0.4666666666666667,subsidiary,operational,LOW
+FIRM_0114,Open source community,open_source,,1,IBM,0.63124317,0.63124317,0.4666666666666667,0.4666666666666667,supplier,operational,LOW
+FIRM_0171,Whole Foods Market,retail,Amazon,1,Amazon,0.6505862,0.6505862,0.4666666666666667,0.4666666666666667,subsidiary,operational,LOW
+FIRM_0073,Intime,retail,Alibaba,1,Alibaba,0.6482806,0.6482806,0.4666666666666665,0.4666666666666665,investment_target,operational,LOW
+FIRM_0159,Sun Art Retail,retail,Alibaba,1,Alibaba,0.6482806,0.6482806,0.4666666666666665,0.4666666666666665,investment_target,operational,LOW
+FIRM_0091,Mandiant,cybersecurity,Google,1,Snowflake,0.52768457,0.52768457,0.4333333333333333,0.4333333333333333,supplier,security,LOW
+FIRM_0097,Microsoft,company,,1,IBM,0.63124317,0.63124317,0.4333333333333333,0.4333333333333333,partner,performance,LOW
+FIRM_0060,GitHub,developer_platform,Microsoft,1,Microsoft,0.6202197,0.6202197,0.4,0.4,subsidiary,operational,LOW
+FIRM_0048,Dell Technologies,hardware,,1,Teradata,0.35816234,0.35816234,0.3666666666666667,0.3666666666666667,hardware_vendor,operational,LOW
+FIRM_0107,NetApp,storage,,1,Teradata,0.35816234,0.35816234,0.3666666666666667,0.3666666666666667,hardware_vendor,operational,LOW
+FIRM_0117,Oracle,enterprise_software,,1,IBM,0.63124317,0.63124317,0.3666666666666666,0.3666666666666666,partner,operational,LOW
+FIRM_0003,Activision Blizzard,gaming,Microsoft,1,Microsoft,0.6202197,0.6202197,0.3333333333333333,0.3333333333333333,subsidiary,operational,LOW
+FIRM_0101,Moonshot AI,ai_lab,,1,Alibaba,0.6482806,0.6482806,0.3333333333333333,0.3333333333333333,investment_target,none,LOW
+FIRM_0131,Rivian,automotive,,1,Amazon,0.6505862,0.6505862,0.2666666666666666,0.2666666666666666,investment_target,performance,LOW
+FIRM_0162,Tencent Cloud,cloud_provider,Tencent,1,MongoDB,0.4915843,0.4915843,0.2666666666666666,0.2666666666666666,partner,governance,LOW
+FIRM_0013,Amdocs,telecom_software,,1,Couchbase,0.5136132,0.5136132,0.2333333333333333,0.2333333333333333,partner,operational,LOW
+FIRM_0018,Apache Kafka,open_source_project,Apache Software Foundation,1,Couchbase,0.5136132,0.5136132,0.2333333333333333,0.2333333333333333,software_vendor,operational,LOW
+FIRM_0020,Apache Spark,open_source_project,Apache Software Foundation,1,Couchbase,0.5136132,0.5136132,0.2333333333333333,0.2333333333333333,software_vendor,operational,LOW
+FIRM_0050,Elasticsearch,search_software,Elastic,1,Couchbase,0.5136132,0.5136132,0.2333333333333333,0.2333333333333333,software_vendor,operational,LOW
+FIRM_0149,Salesforce,enterprise_software,,1,IBM,0.63124317,0.63124317,0.2333333333333333,0.2333333333333333,partner,operational,LOW
+FIRM_0038,Cohere,ai_lab,,1,MongoDB,0.4915843,0.4915843,0.2166666666666666,0.2166666666666666,ai_provider,none,LOW
+FIRM_0055,Fireworks AI,ai_platform,,1,MongoDB,0.4915843,0.4915843,0.2166666666666666,0.2166666666666666,ai_provider,none,LOW
+FIRM_0129,Red Hat,open_source_software,IBM,1,Couchbase,0.5136132,0.5136132,0.2166666666666666,0.2166666666666666,partner,operational,LOW
+FIRM_0040,Confluent,data_streaming,,1,MongoDB,0.4915843,0.4915843,0.2,0.2,partner,none,LOW
+FIRM_0070,Infosys,it_services,,1,MongoDB,0.4915843,0.4915843,0.2,0.2,partner,none,LOW
+FIRM_0080,LangChain,ai_framework,,1,MongoDB,0.4915843,0.4915843,0.2,0.2,partner,none,LOW
+FIRM_0085,LlamaIndex,ai_framework,,1,MongoDB,0.4915843,0.4915843,0.2,0.2,partner,none,LOW
+FIRM_0121,Palo Alto Networks,cybersecurity,,1,IBM,0.63124317,0.63124317,0.2,0.2,partner,security,LOW
+FIRM_0054,Ernst & Young,professional_services,,1,Oracle,0.6116944,0.6116944,0.1666666666666666,0.1666666666666666,supplier,governance,LOW
+FIRM_0001,ADP,hr_software,,1,SAP,0.6179094,0.6179094,0.1,0.1,software_vendor,none,LOW
+FIRM_0027,Bleu,sovereign_cloud_provider,Orange; Capgemini,1,SAP,0.6179094,0.6179094,0.1,0.1,ai_provider,none,LOW
+FIRM_0046,Databricks,data_ai_platform,,1,SAP,0.6179094,0.6179094,0.1,0.1,data_provider,none,LOW
+FIRM_0099,Mistral AI,ai_lab,,1,SAP,0.6179094,0.6179094,0.1,0.1,ai_provider,governance,LOW
+FIRM_0120,Palantir Technologies,data_analytics,,1,SAP,0.6179094,0.6179094,0.1,0.1,ai_provider,none,LOW
+FIRM_0122,Perplexity AI,ai_search,,1,SAP,0.6179094,0.6179094,0.1,0.1,ai_provider,none,LOW
+FIRM_0136,SAP Concur,travel_expense_software,SAP,1,SAP,0.6179094,0.6179094,0.1,0.1,subsidiary,none,LOW
+FIRM_0137,SAP Deutschland,enterprise_software,SAP,1,SAP,0.6179094,0.6179094,0.1,0.1,subsidiary,none,LOW
+FIRM_0141,SAP LeanIX,enterprise_architecture,SAP,1,SAP,0.6179094,0.6179094,0.1,0.1,subsidiary,none,LOW
+FIRM_0143,SAP Schweiz,enterprise_software,SAP,1,SAP,0.6179094,0.6179094,0.1,0.1,subsidiary,none,LOW
+FIRM_0144,SAP Signavio,process_intelligence,SAP,1,SAP,0.6179094,0.6179094,0.1,0.1,subsidiary,none,LOW
+FIRM_0146,SAP UK,enterprise_software,SAP,1,SAP,0.6179094,0.6179094,0.1,0.1,subsidiary,none,LOW
+FIRM_0155,Snowflake,data_platform,,1,SAP,0.6179094,0.6179094,0.1,0.1,data_provider,none,LOW
+FIRM_0169,WalkMe,digital_adoption_platform,SAP,1,SAP,0.6179094,0.6179094,0.1,0.1,subsidiary,none,LOW

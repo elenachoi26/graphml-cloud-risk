@@ -1,0 +1,6 @@
+incident_id,incident_date,company_name,headquarters_country_isocode,related_countries,severity,reach,novelty,ai,cyberattack,energy_management,company_canonical_name,company_canonical_firm_id,company_entity_level,company_entity_type,company_parent_canonical_name,company_parent_firm_id,company_mapping_found
+90001,2023-04-11,Cirrus Cloud Platform,US,US,3,3,2,T,F,F,Cirrus Cloud Platform,FIRM_9003,subsidiary,cloud_provider,Cirrus Holdings,FIRM_9005,True
+90002,2024-02-02,Cirrus Cloud Platform,US,US,2,2,1,T,F,F,Cirrus Cloud Platform,FIRM_9003,subsidiary,cloud_provider,Cirrus Holdings,FIRM_9005,True
+90003,2024-08-19,Lumen Model Labs,US,US,2,3,3,T,F,F,Lumen Model Labs,FIRM_9004,parent,ai_lab,,,True
+90004,2023-11-07,Northwind Analytics,US,US,1,1,1,T,F,F,Northwind Analytics,FIRM_9001,parent,company,,,True
+90005,2022-06-30,Cirrus Holdings,US,US,2,1,1,T,F,F,Cirrus Holdings,FIRM_9005,parent,company,,,True

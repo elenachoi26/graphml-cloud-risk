@@ -1,0 +1,5 @@
+year,n_nodes,n_edges,density,n_strongly_connected,n_weakly_connected,avg_in_degree,avg_out_degree,max_pagerank_node,max_pagerank_name,n_source_firm,n_target_entity
+2022,84,111,0.01592,57,7,1.321,1.321,FIRM_0132,SAP,11,73
+2023,74,96,0.01777,54,7,1.297,1.297,FIRM_0132,SAP,11,63
+2024,72,96,0.01878,52,6,1.333,1.333,FIRM_0132,SAP,11,61
+2025,82,138,0.02078,45,3,1.683,1.683,FIRM_0100,MongoDB,10,72
