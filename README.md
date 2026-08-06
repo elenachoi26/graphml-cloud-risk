@@ -10,7 +10,7 @@ systemic risk that firm-level analysis cannot see.**
 
 `Python` · `PyTorch Geometric` · `NetworkX` · `LLM-based information extraction` · `pandas`
 
-> Competition project · Apr–May 2026 · Role: ML Engineer / Data Scientist
+> Competition project · Apr–May 2026 · 
 
 ---
 
@@ -137,41 +137,6 @@ connection is a channel in and a channel out.
 ![scenario](figures/05_scenario_microsoft_hop1.png)
 
 → [`docs/04-model.md`](docs/04-model.md) · [`docs/05-outputs.md`](docs/05-outputs.md)
-
----
-
-## 4. My contribution and role
-
-Sole contributor to the data pipeline, risk formulation, and modelling.
-
-**Graph schema design.** Defined the node and edge structure that turns narrative disclosure
-into a computable dependency graph — including the two decisions the analysis rests on:
-separating *mention* direction from *risk propagation* direction (a 10-K names its suppliers,
-so the filer is usually the exposed party, and inverting this silently reverses every
-result), and classifying four spillover channels so each scenario maps onto a specific
-insurance coverage.
-
-**LLM extraction pipeline.** Designed the extraction schemas and scoring criteria that turn
-~48 filings of prose into structured rows — scoring risk by *intensity* rather than presence,
-since every tech 10-K mentions cybersecurity and only the degree varies. Every extracted row
-retains its source sentence and filing section, so no score is unattributable.
-
-**Entity resolution.** Built the canonical mapping across inconsistent vendor naming. Not
-glamorous, and load-bearing: if "AWS" and "Amazon Web Services" stay separate nodes,
-concentration reads as diversification and the accumulation the project exists to detect
-disappears.
-
-**Risk formulation.** Derived the four-component exposure decomposition and the composite
-weighting, with every constant centralised in one config file so the judgments are
-inspectable and re-runnable rather than buried.
-
-**GNN implementation and ablation.** Built the weak-supervision setup and the four-model
-comparison. Including the MLP control was a deliberate design choice — without it, the
-Ridge-to-GCN gap could be dismissed as non-linearity.
-
-**Output design.** Built the three deliverables around what each desk actually decides:
-underwriting cards for renewal terms, provider accumulation for the CRO's limits, scenario
-propagation for response planning.
 
 ---
 
@@ -349,35 +314,6 @@ hop-2에서 반전이 나타납니다. AWS 장애는 직접적으로는 6개 노
 SAP(0.618), Oracle(0.612) — 은 기업 규모 순위가 아닙니다. 매출·시가총액은 피처에
 포함되지 않았습니다. 이들이 높은 이유는 *위치*입니다. 촘촘한 교차 의존 구조 속에서 모든
 연결은 유입 경로이자 유출 경로가 됩니다.
-
-## 4. 나의 기여와 역할
-
-데이터 파이프라인·리스크 정식화·모델링 전 과정 단독 수행.
-
-**그래프 스키마 설계.** 서술형 공시를 계산 가능한 의존 구조로 전환하는 노드·엣지 정의.
-분석 전체가 의존하는 두 가지 결정을 포함합니다 — *언급* 방향과 *리스크 전파* 방향의 분리
-(10-K는 자사의 공급자를 언급하므로 공시 주체가 오히려 피노출 측이며, 이를 반대로 두면 모든
-결과가 조용히 뒤집힙니다), 그리고 각 시나리오가 특정 보험 담보에 대응되도록 하는 4가지
-spillover 채널 분류.
-
-**LLM 추출 파이프라인.** 약 48건의 서술형 공시를 구조화된 행으로 변환하는 추출 스키마와
-채점 기준 설계 — 리스크를 언급 여부가 아니라 *강도*로 점수화했습니다. 모든 기술 기업
-10-K가 사이버보안을 언급하며, 변별력은 정도에서만 나오기 때문입니다. 추출된 모든 행은 원문
-문장과 공시 섹션을 보존하여, 근거 없는 점수가 존재하지 않도록 했습니다.
-
-**엔티티 정합화.** 벤더명 표기 불일치를 해소하는 canonical 매핑 구축. 화려하지 않지만
-결정적입니다 — "AWS"와 "Amazon Web Services"가 별개 노드로 남으면 집중도가 분산으로
-읽히고, 이 프로젝트가 탐지하려는 축적 리스크 자체가 사라집니다.
-
-**리스크 정식화.** 4개 구성요소 노출도 분해와 결합 가중치 도출. 모든 상수를 단일 config
-파일에 집중시켜, 판단 근거가 코드에 묻히지 않고 검토·재실행 가능하도록 했습니다.
-
-**GNN 구현 및 ablation.** 약지도 학습 설계와 4개 모델 비교 수행. MLP 대조군 포함은 의도적
-설계였습니다 — 이것이 없으면 Ridge와 GCN의 격차는 단순 비선형성으로 반박될 수 있습니다.
-
-**산출물 설계.** 각 실무 조직이 실제로 내리는 의사결정에 맞춰 세 가지 산출물을 구성했습니다
-— 갱신 조건을 위한 언더라이팅 카드, CRO의 한도 관리를 위한 공급자별 누적 노출, 대응 계획을
-위한 시나리오 전파.
 
 ## 재현성에 대하여
 
